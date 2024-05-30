@@ -8,7 +8,7 @@ public class Main {
         // Crear un nou llibre
         Student book = new Book(1, "Programació", 2023);
         dbManager.addBook(book);
-
+        
         // Recuperar un llibre
         Student retrievedBook = dbManager.getBook(1);
         System.out.println(retrievedStudent);
